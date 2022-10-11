@@ -1,0 +1,15 @@
+.search-bar {
+  margin-top: 40px;
+  left: 35%;
+  width: 300px;
+}
+.search-bar .uk-input {
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 720px) {
+  .search-bar {
+    width: 100%;
+    left: 0%;
+  }
+}/*# sourceMappingURL=Search.css.map */

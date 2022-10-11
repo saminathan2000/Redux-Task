@@ -1,0 +1,37 @@
+.player{
+    height: 100px;
+    position: fixed;
+    color: aliceblue;
+    bottom: 0px;
+    background-color: #282828;
+    width: 100%;
+    z-index: 1;
+}
+
+.song-desc{
+    width: 150px;
+}
+.song-play{
+    width: 50%;
+    svg{
+        width: 25px;
+        height: 25px;
+    }
+}
+.barCompleted{
+    background-color: #b2b2b2;
+    width: 30%;
+}
+.track-container{
+    background-color: aliceblue;
+}
+.rect-progress-bar-percent{
+    display: none!important;
+}
+.left-content{
+    svg{
+        width: 25px;
+        height: 25px;
+        align-self: center;
+    }
+}
